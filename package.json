@@ -1,6 +1,6 @@
 {
   "name": "dsh-codex-provider",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "OpenAI Codex provider for DeepSeek Harness with device-code OAuth, Codex CLI import, token refresh, and a web settings panel.",
   "type": "module",
   "main": "lib/index.js",
@@ -30,11 +30,11 @@
   "author": "Hu9956",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hu9956/dsh-codex-provider.git"
+    "url": "git+https://github.com/ObnubiladO/dsh-codex-provider.git"
   },
-  "homepage": "https://github.com/Hu9956/dsh-codex-provider#readme",
+  "homepage": "https://github.com/ObnubiladO/dsh-codex-provider#readme",
   "bugs": {
-    "url": "https://github.com/Hu9956/dsh-codex-provider/issues"
+    "url": "https://github.com/ObnubiladO/dsh-codex-provider/issues"
   },
   "engines": {
     "node": ">=22"
@@ -59,17 +59,17 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-typert-protocol": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-credentials": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-settings": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-typert-protocol": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-credentials": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-settings": ">=0.1.0-rc.6 <0.3.0",
     "react": "^18.2.0",
-    "@deepseek-ai/dsh-client-connection": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-locale": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-ui-primitives": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-ui-settings": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-web-react": "^0.1.0-rc.6"
+    "@deepseek-ai/dsh-client-connection": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-locale": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-runtime": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-ui-primitives": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-ui-slots": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-ui-settings": ">=0.1.0-rc.6 <0.3.0",
+    "@deepseek-ai/dsh-client-web-react": ">=0.1.0-rc.6 <0.3.0"
   },
   "peerDependenciesMeta": {
     "@deepseek-ai/cordis": { "optional": true },
